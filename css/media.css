@@ -3,7 +3,8 @@
     margin: 0;
   }
   
-  .reviews-slider .slick-slade {
+  .reviews-slider .slick-sli
+  de {
     margin: 0;
   }
 
@@ -117,6 +118,25 @@
 
   .price-item {
     max-width: 100%;
+  }
+}
+
+@media (max-width: 580px) {
+  .reviews-box {
+    display: block;
+  }
+  .reviews-box__images {
+    width: 100%;
+    min-height: 200px;
+  }
+  .reviews-box__content {
+    width: 100%;
+    padding: 20px;
+    min-height: 260px;
+  }
+  .reviews-slider .slick-slide {
+    padding-bottom: 30px;
+    margin: 0;
   }
 }
 
